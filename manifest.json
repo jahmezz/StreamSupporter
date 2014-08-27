@@ -1,18 +1,12 @@
 {
+  "name": "Hello World!",
+  "description": "My first Chrome App.",
+  "version": "0.1",
   "manifest_version": 2,
-
-  "name": "background-colorpeek",
-  "version": "1.0",
-  "description": "Get every background-color from the current tab.",
-
-  "browser_action": {
-    "default_icon": "icon.png"
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
   },
-
-  "background": {
-    "scripts": ["event.js"],
-    "persistent": false
-  },
-  
-  "permissions": ["<all_urls>"]
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
 }
