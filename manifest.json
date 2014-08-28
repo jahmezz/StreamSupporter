@@ -1,12 +1,13 @@
 {
-  "name": "Hello World!",
-  "description": "My first Chrome App.",
-  "version": "0.1",
   "manifest_version": 2,
+  "name": "Hello World",
+  "version": "1",
+  "permissions": [],
   "app": {
     "background": {
-      "scripts": ["background.js"]
+      "scripts": ["main.js"]
     }
   },
-  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
+  "minimum_chrome_version": "23"
+
 }
